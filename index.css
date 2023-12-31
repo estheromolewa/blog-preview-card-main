@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Figtree', sans-serif; 
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.bg__main__attribution{
+   background-image: url(assets/images/favicon-32x32.png);
+   padding: 20px 10px;
+   width: 1300px;
+   margin: 5px 0 0 0;
+   
+   
+   
+}
+
+.bg__yellow__wrap{
+    background-color: hsl(47, 88%, 63%) ;
+    margin: 50px 50px;
+    padding: 10px;
+    box-shadow: 5px 12px 10px  hsl(0, 0%, 50%);
+    display: flex;
+
+}
+
+.bg__white__wrap{
+    background-color: hsl(0, 0%, 100%) ;
+    box-shadow: 8px 8px 1px hsl(0, 0%, 7%);
+    margin:  50px auto ;
+    width: 380px;
+    border-radius: 15px; 
+    border: 1px solid #121212;
+ 
+}
+
+.content__main__wrap{
+    margin: 5px auto ;
+    padding: 5px;
+    width:fit-content;
+    border-radius: 0.5rem;      
+  
+}
+
+
+.img__section .yellow__box__img{
+    border-radius: 0.5rem;
+  
+}
+
+
+.learning__button__wrap{
+    margin: 10px 0;
+}
+
+.learning__button__wrap .learning__button{
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-weight: 800 ;
+    font-size: 13px;
+
+}
+
+.content__section .foundations__text{
+    font-size: 1.3rem ;
+    font-weight: 800 ;
+    font-family: 'Figtree', sans-serif; 
+    
+
+}
+
+.foundations__text:hover{
+    color:  hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.content__section p{
+    font-weight: 500;
+    font-size: 50;
+    color: rgb(41, 40, 40);
+}
+
+.content__section .grey__p{
+    color:  hsl(0, 0%, 50%);
+    font-weight: 100;
+}
+
+
+.greyhooper__img__section{
+    display: flex;
+    box-sizing: border-box;
+    
+}
+
+.greyhooper__img__section h4{
+    font-weight: 900;
+    margin-left: 15px;
+ 
+   
+}
+
+
+/* 
+on screen that are 400px or less, set the display to none */
+@media (min-width: 200px) and (max-width: 400px){
+    .bg__main__attribution{
+        background-image: none;
+    }
+
+    .bg__yellow__wrap{
+        display: flex;
+        flex-direction: column;
+    }
+} 
+@media (min-width: 400px) and (max-width: 600px){
+    .bg__main__attribution{
+        background-image: none;
+    }
+
+    .bg__yellow__wrap{
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
