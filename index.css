@@ -121,7 +121,9 @@ on screen that are 400px or less, set the display to none */
         flex-direction: column;
     }
 } 
-@media (min-width: 400px) and (max-width: 600px){
+
+
+@media (min-width: 375px) and (max-width: 600px){
     .bg__main__attribution{
         background-image: none;
     }
